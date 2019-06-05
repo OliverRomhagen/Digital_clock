@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tross Clock</title>
+  </head>
+  <body>
+    <main>
+      
+      <div class="clock">
+        <h1 class="day"></h1>
+        <ul>
+          <li class="clock__hours"></li>
+          <li class="clock__minutes"></li>
+          <li class="clock__seconds"></li>
+        </ul>  
+      </div>
+        <form>
+          <label for="timezone">Välj Tidszon</label>
+            <select id="timeZone">
+                <option value="Europe/Stockholm">Stockholm</option>
+                <option value="Europe/Helsinki">Helsingfors</option>
+                <option value="America/New_York">New York</option>
+                <option value="Asia/Bangkok">Bangkok</option>
+                <option value="Australia/Brisbane">Brisbane</option>
+            </select>
+          </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

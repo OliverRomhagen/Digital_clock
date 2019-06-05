@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    font-family: roboto;
+    color:white;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    background: #ff7000;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin:0;
+    font-size: 2em;
+}
+
+.clock {
+    
+    border-radius: 4px;
+    padding:1.25em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    font-size: 6em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+select { 
+    display: block;
+    padding: 10px 70px 10px 13px;
+    max-width: 100%; 
+    border: 1px solid #e3e3e3; 
+    border-radius: 3px; 
+    background: url("https://i.ibb.co/b7xjLrB/selectbox-arrow.png") right center no-repeat; 
+    background-color: #fff; 
+    color: #444444 !important; 
+    font-size: 12px;  
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+} 
+option {
+    color: #444444 !important; 
+}
+
+
+label {
+    text-align:center;
+}
+
+@media screen and (max-width: 500px) {
+    li {
+        font-size:4em;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    li {
+        font-size:3em;
+    }
+  }
